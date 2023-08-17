@@ -1,0 +1,7 @@
+<suite name="Score">
+    <test name="Score Test">
+        <classes>
+            <class name="testpackage.AppTest"/>
+        </classes>
+    </test>
+</suite>
