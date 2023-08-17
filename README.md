@@ -44,7 +44,9 @@ Advantages: Easy Maintenance, Code reusability, Readability and Reliability of S
 
 3. Java - since most selenium and it's supportive libraries are provided in Java / Kotlin, I have used Java as the primary language for this framework.
 
-4. TestNG - TestNG is useful to organize the tests with @BeforeClass @AfterClass @Test and @DataProvider annotations for making the test data driven (currently I have only shown the usage of Data provider using parameters from a separate method but this is easily achievable to pass data even from an Excel sheet. I only configured the data Provider since 1. For the bonus points 2. To show that using excel is a similar approach and I have configured it before in the same manner reading the excel file and it's data using Java code. 
+4. TestNG - TestNG is useful to organize the tests with @BeforeClass @AfterClass @Test and @DataProvider annotations for making the test data driven (currently I have only shown the usage of Data provider using parameters from a separate method but this is easily achievable to pass data even from an Excel sheet. I only configured the data Provider since 1. For the bonus points 2. To show that using excel is a similar approach and I have configured it before in the same manner reading the excel file and it's data using Java code.
+
+   **For any clarification regarding the ^ above process please reach out to my email earlspen2001@gmail.com**
 
 
 
