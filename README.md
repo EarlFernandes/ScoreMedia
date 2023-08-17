@@ -6,6 +6,7 @@ A. **Prerequisites**
 1. Appium (cli) version 2.0.1 (install appium using npm with this command **npm i --location=global appium**)
 2. uiautomator2@2.29.4 (install latest with command **appium driver install uiautomator2**) 
 <img width="284" alt="image" src="https://github.com/EarlFernandes/ScoreMedia/assets/48104035/798a1336-77bb-4ccf-b35f-1a35e374775d">
+
 More info on installing uiautomator2 here --> https://appium.io/docs/en/2.0/quickstart/uiauto2-driver/
 
 3. Download Android SDK platform tools. You will probably want to download Android Studio and manage the SDK tools from within it for the easiest experience.
