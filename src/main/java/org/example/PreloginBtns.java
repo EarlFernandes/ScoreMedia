@@ -62,9 +62,7 @@ public class PreloginBtns extends BasePage {
 
     public void GetStartedBtn() {
         try {
-            Thread.sleep(5000);
             ActionBtn.click();
-            Thread.sleep(5000);
         } catch (Exception ignored) {
 
         }
@@ -72,23 +70,16 @@ public class PreloginBtns extends BasePage {
 
     public void NavigateToLeague() {
         try {
-            Thread.sleep(2000);
             NBA_Basketball.click();
-            Thread.sleep(2000);
             ActionBtn.click();
-            Thread.sleep(2000);
             AllowBtn1.click();
-            Thread.sleep(2000);
             While_using_app.click();
-            Thread.sleep(2000);
             Raptors.click();
             ContinueBtn.click();
             ContinueBtn.click();
             AllowBtn2.click();
             DismissModal.click();
-            Thread.sleep(2000);
             Leagues.click();
-            Thread.sleep(5000);
             Edit.click();
             Edit.click();
 
@@ -102,7 +93,6 @@ public class PreloginBtns extends BasePage {
         try {
 
             League_NBA.click();
-            Thread.sleep(5000);
 
             String ActualLeagueTitle = League_Title.getText();
 
@@ -127,7 +117,6 @@ public class PreloginBtns extends BasePage {
 
             //Verifying that back navigation returns you to the previous page correctly.
             Back_btn.click();
-            Thread.sleep(5000);
             Assert.assertEquals(League_Title.getText(), ExpectedTitle2, "Back button did not navigate back to Leagues page");
             System.out.println(League_Title.getText() + " is displayed in Title indicating back navigation returns you to the previous page (Leagues) correctly.");
 
