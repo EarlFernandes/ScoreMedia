@@ -37,14 +37,10 @@ C. **Analyzing the test run**
 
 **Approach towards this framework**
 
-1. Pageobject Model has been adopted as it is the most favoured framework for testing using Selenium. Page Object Model, also known as POM, is a design pattern in Selenium that creates an object repository for storing all web elements. It helps reduce code duplication and improves test case maintenance.
-
-In Page Object Model, consider each web page of an application as a class file. Each class file will contain only corresponding web page elements. Using these elements, testers can perform operations on the website under test.
+1. Pageobject Model has been adopted as it is the most favoured framework for testing using Selenium. Page Object Model, also known as POM, is a design pattern in Selenium that creates an object repository for storing all web elements. It helps reduce code duplication and improves test case maintenance. In Page Object Model, consider each web page of an application as a class file. Each class file will contain only corresponding web page elements. Using these elements, testers can perform operations on the website under test.
 Advantages: Easy Maintenance, Code reusability, Readability and Reliability of Scripts.
 
-2. Pagefactory: Reduced code duplication: Page Factory allows for more concise and reusable Page Objects. This reduces the amount of boilerplate code required to create and maintain Page Objects, leading to less code duplication and better code maintainability.
-
-Improved code readability: Page Factory makes the automation code more readable by separating the initialization of web elements from the test code. This makes it easier to understand the intent of the code and the interactions with the web page.
+2. Pagefactory: Reduced code duplication: Page Factory allows for more concise and reusable Page Objects. This reduces the amount of boilerplate code required to create and maintain Page Objects, leading to less code duplication and better code maintainability. Improved code readability: Page Factory makes the automation code more readable by separating the initialization of web elements from the test code. This makes it easier to understand the intent of the code and the interactions with the web page.
 
 3. Java - since most selenium and it's supportive libraries are provided in Java / Kotlin, I have used Java as the primary language for this framework.
 
